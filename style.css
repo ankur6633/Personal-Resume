@@ -1,0 +1,112 @@
+.resume{
+    background-color: rgb(71, 215, 215);
+    display: flex;
+    margin: 15px;
+    font-family: sans-serif;
+}
+.education{
+    padding: 20px;
+}
+.left .photo img{
+    height: 300px;
+    width: 300px;
+}
+.color{
+    background-color: hsl(220deg 5.45% 10.78%);
+    height: 350px;
+    width: 260px;
+    color: white;
+    margin-top: -10px;
+}
+.color h1{
+    font-size: 22px;
+}
+.edetail h2{
+    font-size: 16px;
+}
+.edetail p{
+    font-size: 14px;
+}
+.expertise{
+    background-color: hsl(0deg 0% 92.16%);
+    height: 300px;
+    width: 260px;
+    color: black;
+    padding: 20px;
+} 
+.line{
+    height: 3px;
+    width: 35px;
+    background-color: rgb(244 198 36);}
+.contact{
+    background-color: hsl(0deg 0% 92.16%);
+}
+.contact i{
+    display: flex;
+    padding: 10px;  
+    align-items: center;
+
+}
+
+.contact .fa{
+    height:30px;
+    width: 30px;
+    background-color: rgb(244 198 36) ;
+    padding-left: 20px;
+    margin-left: 40px;
+}
+.number h5{
+    margin-left: 35px;
+    width: 90px;
+    
+}
+ .number p{
+    /* border: 2px solid green; */
+    font-size: 8px;
+    margin-top: -16px;
+    margin-left: 35px;
+    width: 80px;
+}
+.container{
+    height: 350px;
+    width: 762px;
+    background-color: hsl(0deg 0% 92.16%);
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.ui{
+    color: black;
+    background-color: rgb(244 198 36) ;
+    width: 115px;
+    padding:4px;
+    border-radius: 5px;
+}
+.work{
+    padding: 30px;
+}
+.para{
+    font-size: 14px;
+}
+.ref{
+    padding-left: 30px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col2{
+    margin-right: 350px;
+}
+.interest{
+ padding-left: 30px;
+ 
+}
+.col i{
+padding: 5px;    
+background-color: rgb(244 198 36);
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
